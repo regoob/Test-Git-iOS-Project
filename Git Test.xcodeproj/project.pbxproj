@@ -21,6 +21,7 @@
 		FE064E7618C6855B0037200B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE064E5818C6855A0037200B /* UIKit.framework */; };
 		FE064E7E18C6855B0037200B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE064E7C18C6855B0037200B /* InfoPlist.strings */; };
 		FE064E8018C6855B0037200B /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE064E7F18C6855B0037200B /* Git_TestTests.m */; };
+		FE064E8E18C689110037200B /* CDSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE064E8D18C689110037200B /* CDSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FE064E7B18C6855B0037200B /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		FE064E7D18C6855B0037200B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE064E7F18C6855B0037200B /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		FE064E8C18C689110037200B /* CDSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSTest.h; sourceTree = "<group>"; };
+		FE064E8D18C689110037200B /* CDSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				FE064E6618C6855A0037200B /* Main.storyboard */,
 				FE064E6918C6855A0037200B /* CDSViewController.h */,
 				FE064E6A18C6855A0037200B /* CDSViewController.m */,
+				FE064E8C18C689110037200B /* CDSTest.h */,
+				FE064E8D18C689110037200B /* CDSTest.m */,
 				FE064E6C18C6855B0037200B /* Images.xcassets */,
 				FE064E5B18C6855A0037200B /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				FE064E6B18C6855A0037200B /* CDSViewController.m in Sources */,
 				FE064E6118C6855A0037200B /* main.m in Sources */,
+				FE064E8E18C689110037200B /* CDSTest.m in Sources */,
 				FE064E6518C6855A0037200B /* CDSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
